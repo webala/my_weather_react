@@ -1,1 +1,55 @@
+#header {
+  text-align: center;
+}
 
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+#region {
+  border: solid 1px rgb(12, 17, 84);
+  border-radius: 20px 10px ;
+  height: 30px;
+  width: 400px;
+  margin: 20px;
+  
+}
+
+#form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+#form button {
+  width: 100px;
+  background-color: rgb(12, 17, 84);
+  color: white;
+  border: solid 1px rgb(12, 17, 84);
+  border-radius: 10px 20px ;
+}
+
+#main-description {
+  display: flex;
+  justify-content: center;
+}
+
+#main-description div {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#other-details {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#other-details p {
+  margin-left: 2%;
+}

@@ -1,8 +1,8 @@
-const Form = () => {
+const Form = ({region, setRegion, handleSubmit}) => {
     return (<div id='form'>
-        <form>
-            <input type='text' name='region' id='region' placeholder='Country or Region'/>
-            <button type='submit' class='btn'>Get weather</button>
+        <form onSubmit={handleSubmit}>
+            <input type='text' value={region} onChange={(e)=>setRegion(e.target.value)} id='region' placeholder='Country or Region' required/>
+            <button type='submit' className='btn'>Get weather</button>
         </form>
     </div>)
 }

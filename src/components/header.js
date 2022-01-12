@@ -1,7 +1,7 @@
-function Header () {
+function Header ({mainWeather, weatherDescription}) {
     return (<div id='header'>
         <h1>Nairobi Weather</h1>
-        <h2>Clouds: overcast clouds</h2>
+        <h2>{mainWeather}: {weatherDescription}</h2>
     </div>)
 }
 
